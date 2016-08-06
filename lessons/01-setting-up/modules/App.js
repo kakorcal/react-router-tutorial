@@ -2,9 +2,7 @@ import React from 'react'
 
 export default React.createClass({
   getInitialState(){
-    return {
-      counter: 0
-    }
+    return {counter: 0};
   },
   increment(){
     this.setState({counter: ++this.state.counter});
