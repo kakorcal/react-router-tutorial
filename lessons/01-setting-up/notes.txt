@@ -1,3 +1,5 @@
 --inline - Flag for automatic browser refreshing. browser updates automatically when you press cmd+s on text editor, but you lose state when it refreshes.
 
 --hot - in order to persist the state, add this flag. NOTE: make sure the npm install --save-dev react-preset-hmre and add 'react-hmre' into your .babelrc or in the babel-loader in the webpack.config.
+
+--content-base - where you want to start the server.
